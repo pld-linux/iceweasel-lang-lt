@@ -2,12 +2,12 @@
 Summary:	Lithuanian resources for Iceweasel
 Summary(pl.UTF-8):	Litewskie pliki językowe dla Iceweasel
 Name:		iceweasel-lang-%{_lang}
-Version:	3.0.1
-Release:	3
+Version:	3.0.3
+Release:	1
 License:	GPL
 Group:		I18n
 Source0:	http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
-# Source0-md5:	904194b0c05a5e0f604a719695eb8a41
+# Source0-md5:	376a94c1ef0bc6bef358dd0d05a142b2
 URL:		http://www.mozilla.org/
 BuildRequires:	sed >= 4.0
 BuildRequires:	unzip
