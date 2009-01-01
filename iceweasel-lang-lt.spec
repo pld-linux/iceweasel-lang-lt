@@ -1,10 +1,10 @@
 %define		_lang		lt
 Summary:	Lithuanian resources for Iceweasel
-Summary(pl.UTF-8):	Litewskie pliki językowe dla Iceweasel
+Summary(pl.UTF-8):	Litewskie pliki językowe dla Iceweasela
 Name:		iceweasel-lang-%{_lang}
 Version:	3.0.5
 Release:	1
-License:	GPL
+License:	MPL 1.1 or GPL v2+ or LGPL v2.1+
 Group:		I18n
 Source0:	http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
 # Source0-md5:	033b3b5fcaf31b7d42dcdaf7397b854f
@@ -25,7 +25,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Lithuanian resources for Iceweasel.
 
 %description -l pl.UTF-8
-Litewskie pliki językowe dla Iceweasel.
+Litewskie pliki językowe dla Iceweasela.
 
 %prep
 
